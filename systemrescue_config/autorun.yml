@@ -1,0 +1,8 @@
+
+# SystemRescue Auto-run Configuration
+# This file should be placed in the root directory of the SystemRescue USB drive.
+# It automatically executes the SDWV application upon boot.
+
+autorun:
+    # The command to execute. This path points to where the USB drive is mounted within SystemRescue's environment.
+    command: /usr/bin/python /run/archiso/bootmnt/sdwv_app/main.py

@@ -1,0 +1,95 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 500px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+input[type=file] {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=submit], .button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+input[type=submit]:hover, .button:hover {
+    background-color: #2980b9;
+}
+
+.result-box {
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.result-box.success {
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+}
+
+.result-box.success h2 {
+    color: #2e7d32;
+    margin: 0;
+}
+
+.result-box.failure {
+    background-color: #ffebee;
+    border: 1px solid #ef9a9a;
+}
+
+.result-box.failure h2 {
+    color: #c62828;
+    margin: 0;
+}
+
+.message-box {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+}
