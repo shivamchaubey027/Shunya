@@ -1,6 +1,5 @@
 
-# SDWV - Phase 1: Cryptographic Foundation & Testing
-
+# Shunya - Phase 1
 This README provides instructions on how to test Phase 1 of the Secure Data Wiper & Verifier (SDWV) project.
 
 ## Requirements
